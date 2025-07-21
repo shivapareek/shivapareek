@@ -1,34 +1,60 @@
-# 👋 Hi there, I'm Shiva Pareek
+# Shiva Pareek
 
-### 🚀 Passionate Developer | 🎬 Creative Video Editor | 🧠 Lifelong Learner
+### Full Stack Developer (in Progress) | React Enthusiast | Digital Content Creator
 
-I'm a tech enthusiast exploring the world of **Full Stack Development**, with a keen interest in crafting user-friendly websites and creating engaging digital content.
-
----
-
-## 👨‍💻 About Me
-
-- 💻 I’m currently learning **Full Stack Development**
-- 👀 I’m interested in **Web Development**, **React.js**
-- 🎞️ I also enjoy **video editing** 
-- 🌐 I love building cool web projects and solving real-world problems through code
+I’m a passionate and self-driven developer currently focusing on modern web technologies. With a strong foundation in front-end development and a growing interest in back-end integration, I enjoy building responsive, user-focused web applications. I also have a creative edge in video editing, blending design and storytelling with technical execution.
 
 ---
 
-## 📫 How to Reach Me
+## 🔹 About Me
 
-- 📧 **Email**: pareekshiva2004@gmail.com  
-- 📱 **Mobile**: +91 9950394696  
-- 📷 **Instagram**: [@samrat_edition](https://www.instagram.com/samrat_edition)  
-- 🌍 **Portfolio**: [My Portfolio](https://shivapareek.github.io/shivaportfolio)  
-- 🐙 **GitHub**: [@shivapareek](https://github.com/shivapareek)
+- 💻 Currently learning Full Stack Web Development
+- 🧠 Strong focus on React.js, JavaScript, and UI/UX
+- 🎞️ Proficient in creative video editing and visual storytelling
+- 🌱 Learning PHP, MySQL, and backend fundamentals
+- 🌐 Keen on developing solutions that solve real-world problems
 
 ---
 
-## 🧰 Tech Stack
+## 🔹 Technical Skills
 
-```bash
-💡 Languages:        JavaScript, HTML, CSS
-🛠️ Frameworks/Libs:  React.js, Bootstrap, Tailwind CSS
-🗄️ Backend/DB:       Firebase, PHP, MySQL (learning)
-🎨 Tools:            Figma, Adobe After Effects, Adobe Premire Pro , Davinci Resolve , VS Code, Github 
+| Category           | Technologies & Tools                                            |
+|--------------------|------------------------------------------------------------------|
+| **Languages**       | JavaScript, HTML, CSS                                           |
+| **Frontend**        | React.js, Bootstrap, Tailwind CSS                               |
+| **Backend/Database**| Firebase, PHP (basic), MySQL (basic)                            |
+| **Design & Editing**| Figma, Adobe Premiere Pro, After Effects, DaVinci Resolve       |
+| **Tools**           | VS Code, Git, GitHub                                            |
+
+---
+
+## 🔹 Projects
+
+> *(Add pinned projects with links here – GitHub repos or deployed apps)*
+
+- **Samrat Dzns** – Ecommerce site for design & 3D renders *(React + Firebase)*
+- **Portfolio Website** – Personal site showcasing skills and projects  
+  [Visit Portfolio »](https://shivapareek.github.io/shivaportfolio)
+
+---
+
+## 🔹 Contact
+
+- **Email:** [pareekshiva2004@gmail.com](mailto:pareekshiva2004@gmail.com)  
+- **Phone:** +91 9950394696  
+- **GitHub:** [github.com/shivapareek](https://github.com/shivapareek)  
+- **Instagram:** [@samrat_edition](https://instagram.com/samrat_edition)  
+- **Portfolio:** [shivapareek.github.io/shivaportfolio](https://shivapareek.github.io/shivaportfolio)
+
+---
+
+## 🔹 Currently Exploring
+
+- Frontend Optimization Techniques  
+- Firebase Authentication and Firestore  
+- Responsive design principles  
+- Deployment and Version Control (Git & GitHub)
+
+---
+
+> Open to internships, freelance projects, and collaborative opportunities in web development or digital content creation.
