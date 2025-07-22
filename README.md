@@ -72,40 +72,57 @@
 <br/>
 
 <div style="background-color: #e0f7de; padding: 20px; border-radius: 10px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);">
-  <h3 style="color: #198754;"><img src="https://emojis.slackmojis.com/emojis/pushpin/simple_slack-resized.gif?1687564059" width="30" align="left" style="margin-right: 10px;"> Pinned Projects</h3>
+  <h3 style="color: #198754;">
+    <img src="https://emojis.slackmojis.com/emojis/pushpin/simple_slack-resized.gif?1687564059" width="30" align="left" style="margin-right: 10px;">
+    Pinned Projects
+  </h3>
   <table width="100%">
     <tr>
-      <td width="50%" style="padding-right:10px;">
+      <!-- 🕊️ SANT PREM -->
+      <td width="50%" style="padding-right:10px; padding-top: 15px;">
         <div style="background-color: #f9f9f9; padding: 15px; border-radius: 8px; border: 1px solid #ddd;">
-          <h4>🔗 Samrat Dzns - 3D Design Ecommerce</h4>
-          <p style="color: #666;">An innovative e-commerce platform showcasing and selling unique 3D designs. Built with a focus on user experience and visual appeal.</p>
-          <p><strong>Tech:</strong> <code>React</code>, <code>Tailwind CSS</code>, <code>Firebase Auth</code>, <code>Firestore</code></p>
-          <a href="#" style="color: #007bff; text-decoration: none;">(Link to Project)</a>
+          <h4>🕊️ Sant Prem – Spiritual & Motivational Platform</h4>
+          <p style="color: #666;">A platform built with spiritual content, stories, motivational quotes & authentication system.</p>
+          <p><strong>Tech:</strong> <code>React</code>, <code>Appwrite Auth</code>, <code>Tailwind CSS</code>, <code>Vercel</code></p>
+          <a href="https://sant-prem.vercel.app" target="_blank" style="color: #007bff; text-decoration: none;">View Live</a>
         </div>
       </td>
-      <td width="50%" style="padding-left:10px;">
+
+      <!-- 📄 DOCINTEL -->
+      <td width="50%" style="padding-left:10px; padding-top: 15px;">
         <div style="background-color: #f9f9f9; padding: 15px; border-radius: 8px; border: 1px solid #ddd;">
-          <h4>🧑‍🎨 Personal Portfolio Website</h4>
-          <p style="color: #666;">My personal showcase of skills, projects, and experiences in the world of web development and video editing.</p>
-          <p><strong>Tech:</strong> <code>HTML</code>, <code>CSS</code>, <code>JavaScript</code>, <code>React</code></p>
-          <a href="https://shivapareek.github.io/shivaportfolio" target="_blank" style="color: #007bff; text-decoration: none;">View Live</a>
+          <h4>📄 DocIntel – Intelligent PDF Summarizer</h4>
+          <p style="color: #666;">Upload PDFs and get summaries, Q&A and smart insights using AI-powered tools and Gemini API.</p>
+          <p><strong>Tech:</strong> <code>React</code>, <code>Gemini Pro</code>, <code>Firebase</code>, <code>Tailwind CSS</code></p>
+          <a href="#" style="color: #007bff; text-decoration: none;">(Link coming soon)</a>
         </div>
       </td>
     </tr>
+
     <tr>
+      <!-- 👤 UEM FACEVISION -->
       <td width="50%" style="padding-right:10px; padding-top: 15px;">
         <div style="background-color: #f9f9f9; padding: 15px; border-radius: 8px; border: 1px solid #ddd;">
-          <h4>🔐 Firebase Auth Demo</h4>
-          <p style="color: #666;">A demonstration of user authentication functionalities including signup, login, and logout using Firebase.</p>
-          <p><strong>Tech:</strong> <code>React</code>, <code>Firebase Auth</code></p>
+          <h4>👤 UEM FaceVision – Face Recognition System</h4>
+          <p style="color: #666;">Google Photos–like app to detect and cluster faces from uploaded images, integrated with Google Drive.</p>
+          <p><strong>Tech:</strong> <code>React</code>, <code>Dlib</code>, <code>Python</code>, <code>Firebase</code></p>
+          <a href="#" style="color: #007bff; text-decoration: none;">(More Details)</a>
+        </div>
+      </td>
+
+      <!-- 🛒 SAMRAT DZNS -->
+      <td width="50%" style="padding-left:10px; padding-top: 15px;">
+        <div style="background-color: #f9f9f9; padding: 15px; border-radius: 8px; border: 1px solid #ddd;">
+          <h4>🛒 Samrat Dzns – 3D Design Ecommerce</h4>
+          <p style="color: #666;">An ecommerce platform for 3D renders and graphic design services with login, uploads & gallery features.</p>
+          <p><strong>Tech:</strong> <code>React</code>, <code>Firebase Auth</code>, <code>Firestore</code>, <code>Tailwind CSS</code></p>
           <a href="#" style="color: #007bff; text-decoration: none;">(Link to Project)</a>
         </div>
       </td>
-      <td width="50%" style="padding-left:10px; padding-top: 15px;">
-        </td>
     </tr>
   </table>
 </div>
+
 
 <br/>
 
