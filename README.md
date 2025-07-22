@@ -115,7 +115,7 @@
           <h4>🛒 Samrat Dzns – 3D Design Ecommerce</h4>
           <p style="color: #666;">An ecommerce platform for 3D renders and graphic design services with login, uploads & gallery features.</p>
           <p><strong>Tech:</strong> <code>React</code>, <code>Firebase Auth</code>, <code>Firestore</code>, <code>Tailwind CSS</code></p>
-          <a href="#" style="color: #007bff; text-decoration: none;">(Link to Project)</a>
+          <a href="https://shivapareek.github.io/samratdzns-ecommerce/" style="color: #007bff; text-decoration: none;">(Live Demo)</a>
         </div>
       </td>
     </tr>
