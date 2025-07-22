@@ -87,7 +87,6 @@
           <a href="https://sant-prem.vercel.app" target="_blank" style="color: #007bff; text-decoration: none;">View Live</a>
         </div>
       </td>
-
       <!-- 📄 DOCINTEL -->
       <td width="50%" style="padding-left:10px; padding-top: 15px;">
         <div style="background-color: #f9f9f9; padding: 15px; border-radius: 8px; border: 1px solid #ddd;">
@@ -98,7 +97,6 @@
         </div>
       </td>
     </tr>
-
     <tr>
       <!-- 👤 UEM FACEVISION -->
       <td width="50%" style="padding-right:10px; padding-top: 15px;">
@@ -109,7 +107,6 @@
           <a href="#" style="color: #007bff; text-decoration: none;">(More Details)</a>
         </div>
       </td>
-
       <!-- 🛒 SAMRAT DZNS -->
       <td width="50%" style="padding-left:10px; padding-top: 15px;">
         <div style="background-color: #f9f9f9; padding: 15px; border-radius: 8px; border: 1px solid #ddd;">
