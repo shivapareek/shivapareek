@@ -82,7 +82,7 @@
       <td width="50%" style="padding-right:10px; padding-top: 15px;">
         <div style="background-color: #f9f9f9; padding: 15px; border-radius: 8px; border: 1px solid #ddd;">
           <h4>🕊️ Sant Prem – Spiritual & Motivational Platform</h4>
-          <p style="color: #666;">A platform built with spiritual content, stories, motivational quotes & authentication system.</p>
+          <p style="color: #666;">A soulful web app offering bhajans, motivational videos, personal journaling, guided meditation, and a chatbot of Maharaj Ji — built to promote inner peace and expression.</p>
           <p><strong>Tech:</strong> <code>React</code>, <code>Appwrite Auth</code>, <code>Tailwind CSS</code>, <code>Vercel</code></p>
           <a href="https://sant-prem.vercel.app" target="_blank" style="color: #007bff; text-decoration: none;">View Live</a>
         </div>
