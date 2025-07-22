@@ -83,7 +83,7 @@
         <div style="background-color: #f9f9f9; padding: 15px; border-radius: 8px; border: 1px solid #ddd;">
           <h4>🕊️ Sant Prem – Spiritual & Motivational Platform</h4>
           <p style="color: #666;">A soulful web app offering bhajans, motivational videos, personal journaling, guided meditation, and a chatbot of Maharaj Ji — built to promote inner peace and expression.</p>
-          <p><strong>Tech:</strong> <code>React</code>, <code>Appwrite Auth</code>, <code>Tailwind CSS</code>, <code>Vercel</code></p>
+          <p><strong>Tech:</strong> <code>React</code>, <code>Appwrite Auth</code>, <code>Tailwind CSS</code>, <code>Node.js</code> <code>Express.js</code></p>
           <a href="https://sant-prem.vercel.app" target="_blank" style="color: #007bff; text-decoration: none;">View Live</a>
         </div>
       </td>
@@ -92,7 +92,7 @@
         <div style="background-color: #f9f9f9; padding: 15px; border-radius: 8px; border: 1px solid #ddd;">
           <h4>📄 DocIntel – Intelligent PDF Summarizer</h4>
           <p style="color: #666;">Upload PDFs and get summaries, Q&A and smart insights using AI-powered tools and Gemini API.</p>
-          <p><strong>Tech:</strong> <code>React</code>, <code>Gemini Pro</code>, <code>Firebase</code>, <code>Tailwind CSS</code></p>
+          <p><strong>Tech:</strong> <code>React</code>, <code>LLM Model</code>, <code>Fast API</code>, <code>Tailwind CSS</code></p>
           <a href="#" style="color: #007bff; text-decoration: none;">(Link coming soon)</a>
         </div>
       </td>
@@ -105,7 +105,7 @@
           <p style="color: #666;">A Google Photos–like app that detects and clusters faces from uploaded images. Select a face to view all images featuring that person.
 
 /p>
-          <p><strong>Tech:</strong> <code>React</code>, <code>Dlib</code>, <code>Python</code>, <code>Firebase</code></p>
+          <p><strong>Tech:</strong> <code>React</code>, <code>Dlib</code>, <code>FastAPI</code>, <code>Firebase</code></p>
           <a href="#" style="color: #007bff; text-decoration: none;">(More Details)</a>
         </div>
       </td>
@@ -114,7 +114,7 @@
         <div style="background-color: #f9f9f9; padding: 15px; border-radius: 8px; border: 1px solid #ddd;">
           <h4>🛒 Samrat Dzns – 3D Design Ecommerce</h4>
           <p style="color: #666;">An ecommerce platform for 3D renders and graphic design services with login, uploads & gallery features.</p>
-          <p><strong>Tech:</strong> <code>React</code>, <code>Firebase Auth</code>, <code>Firestore</code>, <code>Tailwind CSS</code></p>
+          <p><strong>Tech:</strong> <code>HTML</code>, <code>Firebase Auth</code>, <code>JavaScript</code>, <code>Bootstrap</code></p>
           <a href="https://shivapareek.github.io/samratdzns-ecommerce/" style="color: #007bff; text-decoration: none;">(Live Demo)</a>
         </div>
       </td>
