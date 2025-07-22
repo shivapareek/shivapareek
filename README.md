@@ -1,8 +1,4 @@
-<p align="center">
-  <a href="https://github.com/shivapareek">
-    <img src="YOUR_BANNER_URL" alt="Shiva Pareek - Frontend Developer Banner" width="100%" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);" />
-  </a>
-</p>
+
 
 <div align="center">
   <a href="https://linkedin.com/in/shivapareek" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
