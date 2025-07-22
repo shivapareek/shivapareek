@@ -102,7 +102,9 @@
       <td width="50%" style="padding-right:10px; padding-top: 15px;">
         <div style="background-color: #f9f9f9; padding: 15px; border-radius: 8px; border: 1px solid #ddd;">
           <h4>👤 UEM FaceVision – Face Recognition System</h4>
-          <p style="color: #666;">Google Photos–like app to detect and cluster faces from uploaded images, integrated with Google Drive.</p>
+          <p style="color: #666;">A Google Photos–like app that detects and clusters faces from uploaded images. Select a face to view all images featuring that person.
+
+/p>
           <p><strong>Tech:</strong> <code>React</code>, <code>Dlib</code>, <code>Python</code>, <code>Firebase</code></p>
           <a href="#" style="color: #007bff; text-decoration: none;">(More Details)</a>
         </div>
