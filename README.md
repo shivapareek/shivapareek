@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=2500&pause=1000&center=true&vCenter=true&width=435&lines=Hi+I'm+Shiva+Pareek;Frontend+Dev+in+Progress;React+Fan+%7C+Video+Editor+%7C+Dreamer" alt="Typing SVG" />
+</p>
+
 <h1 align="center">Hey 👋, I'm Shiva Pareek</h1>
 <h3 align="center">🚀 Frontend Dev in Progress | 💻 React Enthusiast | 🎬 Creative Video Editor</h3>
 
@@ -61,6 +65,15 @@
 
 ---
 
+### 🧑‍💻 Currently Exploring
+
+- 🌐 Building responsive SPAs using React + Tailwind  
+- 🔐 Firebase Auth + Firestore  
+- 💳 Stripe for Payment Gateway  
+- ⚙️ GitHub Actions + Form Handling  
+
+---
+
 ### 🎯 2025 Goals
 
 - ✅ Build **production-level full stack apps**  
@@ -79,7 +92,7 @@
 ### ✨ Fun Fact
 
 ```ts
-while(!success) {
-   tryAgain();
-   improve();
+while (!success) {
+  tryAgain();
+  improve();
 }
