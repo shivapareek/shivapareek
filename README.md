@@ -45,8 +45,6 @@
           <br/>
           <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shivapareek&layout=compact&theme=tokyonight&hide_border=true" alt="Shiva's Top Languages" />
         </p>
-        <br>
-  
       </div>
     </td>
   </tr>
