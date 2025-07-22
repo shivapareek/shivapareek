@@ -56,12 +56,15 @@
 
 <div style="background-color: #fff; padding: 20px; border-radius: 10px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);">
   <h3 style="color: #ffc107;"><img src="https://emojis.slackmojis.com/emojis/wrench/simple_slack-resized.gif?1687564003" width="30" align="left" style="margin-right: 10px;"> Tech Stack</h3>
-  <p align="center">
+ <p align="center">
   <strong>Frontend:</strong><br>
   <img src="https://skillicons.dev/icons?i=html,css,js,react,tailwind,bootstrap" />
   <br><br>
   <strong>Backend & Database:</strong><br>
   <img src="https://skillicons.dev/icons?i=php,mysql,firebase" />
+  <br><br>
+  <strong>Programming Languages:</strong><br>
+  <img src="https://skillicons.dev/icons?i=c,java,python" />
   <br><br>
   <strong>Tools & Creative:</strong><br>
   <img src="https://skillicons.dev/icons?i=figma,vscode,github,pr,ae" />
