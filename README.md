@@ -32,7 +32,6 @@
           <ul>
             <li>🚀 Building reactive SPAs with React + Tailwind CSS</li>
             <li>🔐 Implementing secure authentication with Firebase Auth + Firestore</li>
-            <li>💳 Integrating smooth payment gateways using Stripe</li>
             <li>⚙️ Automating workflows with GitHub Actions and mastering form handling</li>
           </ul>
         </div>
@@ -47,10 +46,7 @@
           <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shivapareek&layout=compact&theme=tokyonight&hide_border=true" alt="Shiva's Top Languages" />
         </p>
         <br>
-        <h3 style="color: #dc3545;"><img src="https://emojis.slackmojis.com/emojis/fire/simple_slack-resized.gif?1687563944" width="30" align="left" style="margin-right: 10px;"> My Streak</h3>
-        <p align="center">
-          <img src="https://github-readme-streak-stats.herokuapp.com?user=shivapareek&theme=tokyonight&hide_border=true" alt="Shiva's GitHub Streak" />
-        </p>
+  
       </div>
     </td>
   </tr>
@@ -61,21 +57,15 @@
 <div style="background-color: #fff; padding: 20px; border-radius: 10px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);">
   <h3 style="color: #ffc107;"><img src="https://emojis.slackmojis.com/emojis/wrench/simple_slack-resized.gif?1687564003" width="30" align="left" style="margin-right: 10px;"> Tech Stack</h3>
   <p align="center">
-    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"><img src="https://img.shields.io/badge/JavaScript-%23F7DF1E.svg?logo=javascript&logoColor=black" alt="JavaScript" style="margin-right: 10px;" /></a>
-    <a href="https://www.w3.org/html/" target="_blank"><img src="https://img.shields.io/badge/HTML5-%23E34F26.svg?logo=html5&logoColor=white" alt="HTML5" style="margin-right: 10px;" /></a>
-    <a href="https://www.w3schools.com/css/" target="_blank"><img src="https://img.shields.io/badge/CSS3-%231572B6.svg?logo=css3&logoColor=white" alt="CSS3" style="margin-right: 10px;" /></a>
-    <a href="https://react.dev/" target="_blank"><img src="https://img.shields.io/badge/React-%2361DAFB.svg?logo=react&logoColor=white" alt="React" style="margin-right: 10px;" /></a>
-    <a href="https://tailwindcss.com/" target="_blank"><img src="https://img.shields.io/badge/Tailwind_CSS-%2338B2AC.svg?logo=tailwind-css&logoColor=white" alt="Tailwind CSS" style="margin-right: 10px;" /></a>
-    <a href="https://getbootstrap.com/" target="_blank"><img src="https://img.shields.io/badge/Bootstrap-%23563D7C.svg?logo=bootstrap&logoColor=white" alt="Bootstrap" style="margin-right: 10px;" /></a>
-    <a href="https://www.php.net/" target="_blank"><img src="https://img.shields.io/badge/PHP-%23777BB4.svg?logo=php&logoColor=white" alt="PHP" style="margin-right: 10px;" /></a>
-    <a href="https://www.mysql.com/" target="_blank"><img src="https://img.shields.io/badge/MySQL-%234479A1.svg?logo=mysql&logoColor=white" alt="MySQL" style="margin-right: 10px;" /></a>
-    <a href="https://firebase.google.com/" target="_blank"><img src="https://img.shields.io/badge/Firebase-%23FFCA28.svg?logo=firebase&logoColor=black" alt="Firebase" style="margin-right: 10px;" /></a>
-    <a href="https://www.figma.com/" target="_blank"><img src="https://img.shields.io/badge/Figma-%23F24E1E.svg?logo=figma&logoColor=white" alt="Figma" style="margin-right: 10px;" /></a>
-    <a href="https://www.adobe.com/products/premiere.html" target="_blank"><img src="https://img.shields.io/badge/Adobe_Premiere_Pro-%239999FF.svg?logo=adobe-premiere-pro&logoColor=white" alt="Premiere Pro" style="margin-right: 10px;" /></a>
-    <a href="https://www.adobe.com/products/after-effects.html" target="_blank"><img src="https://img.shields.io/badge/Adobe_After_Effects-%239999FF.svg?logo=adobe-after-effects&logoColor=white" alt="After Effects" style="margin-right: 10px;" /></a>
-    <a href="https://code.visualstudio.com/" target="_blank"><img src="https://img.shields.io/badge/Visual_Studio_Code-%230078D4.svg?logo=visual-studio-code&logoColor=white" alt="VS Code" style="margin-right: 10px;" /></a>
-    <a href="https://github.com/" target="_blank"><img src="https://img.shields.io/badge/GitHub-%23181717.svg?logo=github&logoColor=white" alt="GitHub" style="margin-right: 10px;" /></a>
-  </p>
+  <strong>Frontend:</strong><br>
+  <img src="https://skillicons.dev/icons?i=html,css,js,react,tailwind,bootstrap" />
+  <br><br>
+  <strong>Backend & Database:</strong><br>
+  <img src="https://skillicons.dev/icons?i=php,mysql,firebase" />
+  <br><br>
+  <strong>Tools & Creative:</strong><br>
+  <img src="https://skillicons.dev/icons?i=figma,vscode,github,pr,ae" />
+</p>
 </div>
 
 <br/>
