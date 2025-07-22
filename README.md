@@ -129,7 +129,7 @@
   <h3 style="color: #85640a;"><img src="https://emojis.slackmojis.com/emojis/target/simple_slack-resized.gif?1687564105" width="30" align="left" style="margin-right: 10px;"> 2025 Goals</h3>
   <ul style="list-style-type: none; padding-left: 20px;">
     <li>✅ Build <strong>production-level full-stack applications</strong> with robust features.</li>
-    <li>✅ Achieve mastery in <strong>React, Stripe API, and Firestore</strong> for complex integrations.</li>
+    <li>✅ Achieve mastery in <strong>React and Firestore</strong> for complex integrations.</li>
     <li>✅ Secure a valuable <strong>frontend internship or freelance</strong> development opportunity.</li>
     <li>✅ Effectively <strong>balance tech and creativity</strong> by actively creating content (e.g., on a YouTube channel related to coding and/or editing).</li>
   </ul>
