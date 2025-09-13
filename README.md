@@ -23,7 +23,7 @@
     <td valign="top" width="50%" style="padding-right:20px;">
       <div style="background-color: #f0f8ff; padding: 20px; border-radius: 10px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);">
         <h3 style="color: #007bff;"><img src="https://emojis.slackmojis.com/emojis/rocket/simple_slack-resized.gif?1687563843" width="30" align="left" style="margin-right: 10px;"> About Me</h3>
-        <p>Hello there! I'm Shiva Pareek, a passionate <strong>Frontend Developer</strong> currently navigating the exciting world of web development from Jaipur, Rajasthan, India. I'm on a journey to transform creative ideas into interactive and user-friendly digital experiences.</p>
+        <p>Hello there! I'm Shiva Pareek, a passionate <strong>Full Stack Developer</strong> currently navigating the exciting world of web development from Jaipur, Rajasthan, India. I'm on a journey to transform creative ideas into interactive and user-friendly digital experiences.</p>
         <p>My current focus revolves around the dynamic <strong>React.js</strong> library. I enjoy the process of building modular components and crafting seamless user interfaces. Beyond the code, I have a keen eye for detail and a love for <strong>video editing</strong>, where I use Premiere Pro and After Effects to bring stories to life.</p>
         <p>Let's connect and explore the possibilities of collaboration!</p>
         <br>
