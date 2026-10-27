@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="430" viewBox="0 0 900 430" role="img" aria-label="Terminal: about Shiva Pareek">
+  <defs>
+    <linearGradient id="bar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#1A1613"/><stop offset="100%" stop-color="#241B15"/>
+    </linearGradient>
+    <clipPath id="win"><rect width="900" height="430" rx="16"/></clipPath>
+  </defs>
+  <style>
+    .t { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; font-size: 17px; }
+    .p { fill: #E8A33D; font-weight: 700; }
+    .c { fill: #F5F1EA; }
+    .o { fill: #CFC8BC; }
+    .a { fill: #E8A33D; }
+    .g { fill: #4ADE80; }
+    .m { fill: #8C857B; }
+    .ln { opacity: 0; animation: show .01s forwards; }
+    @keyframes show { to { opacity: 1; } }
+    .type { clip-path: inset(0 100% 0 0); animation: type 1s steps(28) forwards; }
+    @keyframes type { to { clip-path: inset(0 0 0 0); } }
+    .cursor { animation: blink 1s steps(1) infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
+    .l1{animation-delay:.3s}  .l2{animation-delay:1.4s}
+    .l3{animation-delay:1.9s} .l4{animation-delay:3.0s}
+    .l5{animation-delay:3.5s} .l6{animation-delay:4.6s}
+    .l7{animation-delay:5.1s} .l8{animation-delay:6.2s}
+    .l9{animation-delay:6.7s} .l10{animation-delay:7.8s}
+    .l11{animation-delay:8.3s}
+  </style>
+  <g clip-path="url(#win)">
+    <rect width="900" height="430" fill="#0F0D0B"/>
+    <rect width="900" height="44" fill="url(#bar)"/>
+    <circle cx="26" cy="22" r="7" fill="#FF5F57"/><circle cx="50" cy="22" r="7" fill="#FEBC2E"/><circle cx="74" cy="22" r="7" fill="#28C840"/>
+    <text class="t m" x="450" y="28" text-anchor="middle" font-size="14">shiva@spinex: ~/life</text>
+
+    <g class="t">
+      <g class="ln l1"><text class="type l1" x="28" y="86"><tspan class="p">❯</tspan><tspan class="c"> whoami</tspan></text></g>
+      <text class="ln l2 o" x="28" y="114">Shiva Pareek — <tspan class="a">Co-Founder @ Spinex IT Solutions</tspan>, Jaipur 🇮🇳</text>
+
+      <g class="ln l3"><text class="type l3" x="28" y="156"><tspan class="p">❯</tspan><tspan class="c"> cat stack.json</tspan></text></g>
+      <text class="ln l4 o" x="28" y="184">{ <tspan class="a">"web"</tspan>: ["MongoDB","Express","React","Node"], <tspan class="a">"ai"</tspan>: ["Python","FastAPI"] }</text>
+
+      <g class="ln l5"><text class="type l5" x="28" y="226"><tspan class="p">❯</tspan><tspan class="c"> ls ./shipped</tspan></text></g>
+      <text class="ln l6" x="28" y="254" xml:space="preserve"><tspan class="a">sant-prem/</tspan>   <tspan class="a">docintel/</tspan>   <tspan class="a">uem-facevision/</tspan>   <tspan class="a">samrat-dzns/</tspan></text>
+
+      <g class="ln l7"><text class="type l7" x="28" y="296"><tspan class="p">❯</tspan><tspan class="c"> echo $MISSION</tspan></text></g>
+      <text class="ln l8 o" x="28" y="324">"Build websites &amp; apps that make businesses <tspan class="a">grow</tspan>."</text>
+
+      <g class="ln l9"><text class="type l9" x="28" y="366"><tspan class="p">❯</tspan><tspan class="c"> ./start-project --with shiva</tspan></text></g>
+      <text class="ln l10 g" x="28" y="394">✔ connection established — let's build something crazy 🚀</text>
+      <g class="ln l11"><text x="28" y="420"><tspan class="p">❯</tspan></text><rect class="cursor" x="48" y="406" width="10" height="18" fill="#E8A33D"/></g>
+    </g>
+  </g>
+  <rect x=".5" y=".5" width="899" height="429" rx="16" fill="none" stroke="#E8A33D" stroke-opacity=".3"/>
+</svg>
