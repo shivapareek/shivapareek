@@ -15,11 +15,6 @@
       <stop offset="100%" stop-color="#F5F1EA"/>
       <animateTransform attributeName="gradientTransform" type="translate" values="-1 0;1 0;-1 0" dur="6s" repeatCount="indefinite"/>
     </linearGradient>
-    <linearGradient id="core" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#FFC46E"/>
-      <stop offset="60%" stop-color="#E8A33D"/>
-      <stop offset="100%" stop-color="#7A2430"/>
-    </linearGradient>
     <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
       <path d="M40 0H0V40" fill="none" stroke="#E8A33D" stroke-opacity="0.07" stroke-width="1"/>
     </pattern>
@@ -35,20 +30,24 @@
     @keyframes roles { 0%{opacity:0;transform:translateY(10px)} 3%{opacity:1;transform:translateY(0)} 22%{opacity:1;transform:translateY(0)} 25%{opacity:0;transform:translateY(-10px)} 100%{opacity:0} }
     .cursor { animation: blink 1s steps(1) infinite; }
     @keyframes blink { 50% { opacity: 0; } }
-    .dot { animation: pulse 1.6s ease-in-out infinite; transform-origin: 74px 316px; }
+    .dot { animation: pulse 1.6s ease-in-out infinite; }
     @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:.35} }
     .gridmove { animation: drift 8s linear infinite; }
     @keyframes drift { from { transform: translate(0,0); } to { transform: translate(-40px,-40px); } }
-    .spin1 { animation: spin 18s linear infinite; transform-origin: 930px 190px; }
-    .spin2 { animation: spin 28s linear infinite reverse; transform-origin: 930px 190px; }
-    .spin3 { animation: spin 40s linear infinite; transform-origin: 930px 190px; }
-    @keyframes spin { to { transform: rotate(360deg); } }
     .float { animation: float 6s ease-in-out infinite; }
     .f2 { animation-delay: -2s; } .f3 { animation-delay: -4s; }
     @keyframes float { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-14px)} }
     .in { opacity: 0; animation: fadein .9s ease forwards; }
     .d1{animation-delay:.2s} .d2{animation-delay:.6s} .d3{animation-delay:1s} .d4{animation-delay:1.4s}
     @keyframes fadein { from{opacity:0;transform:translateX(-14px)} to{opacity:1;transform:translateX(0)} }
+    .win { animation: hover 7s ease-in-out infinite; }
+    @keyframes hover { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-8px)} }
+    .hl { animation: hl 6s steps(1) infinite; }
+    @keyframes hl { 0%{opacity:.10;transform:translateY(0)} 20%{opacity:.10;transform:translateY(26px)} 40%{opacity:.10;transform:translateY(52px)} 60%{opacity:.10;transform:translateY(78px)} 80%{opacity:.10;transform:translateY(104px)} 100%{opacity:.10;transform:translateY(0)} }
+    .bar { transform-origin: 732px 306px; animation: load 4s ease-in-out infinite; }
+    @keyframes load { 0%{transform:scaleX(0)} 70%{transform:scaleX(1)} 100%{transform:scaleX(1)} }
+    .done { opacity: 0; animation: done 4s infinite; }
+    @keyframes done { 0%,70%{opacity:0} 75%,100%{opacity:1} }
   </style>
 
   <g clip-path="url(#frame)">
@@ -56,17 +55,14 @@
     <g class="gridmove"><rect x="0" y="0" width="1280" height="460" fill="url(#grid)"/></g>
     <rect width="1200" height="380" fill="url(#glow)"/>
 
-    <!-- floating particles -->
     <g fill="#E8A33D">
       <circle class="float" cx="620" cy="70" r="2.5" opacity=".6"/>
       <circle class="float f2" cx="700" cy="300" r="2" opacity=".5"/>
       <circle class="float f3" cx="1120" cy="80" r="3" opacity=".6"/>
       <circle class="float" cx="1150" cy="320" r="2" opacity=".4"/>
       <circle class="float f2" cx="540" cy="250" r="1.5" opacity=".5"/>
-      <circle class="float f3" cx="770" cy="40" r="1.5" opacity=".5"/>
     </g>
 
-    <!-- left: identity -->
     <text class="mono in d1" x="70" y="96" font-size="20" fill="#E8A33D">&gt; hello_world() <tspan fill="#8C857B">// I'm</tspan></text>
     <text class="sans in d2" x="66" y="176" font-size="86" font-weight="800" letter-spacing="-2" fill="url(#name)">SHIVA PAREEK</text>
 
@@ -82,35 +78,42 @@
 
     <text class="sans in d3" x="70" y="270" font-size="18" fill="#CFC8BC">Jaipur, India  ·  Websites, web apps &amp; AI products that grow businesses</text>
 
-    <!-- status pill -->
     <g class="in d4">
       <rect x="56" y="296" width="292" height="40" rx="20" fill="#16130F" stroke="#E8A33D" stroke-opacity=".5"/>
       <circle class="dot" cx="80" cy="316" r="6" fill="#4ADE80"/>
       <text class="mono" x="96" y="322" font-size="16" fill="#F5F1EA">available for new projects</text>
     </g>
 
-    <!-- right: orbit system -->
-    <circle cx="930" cy="190" r="190" fill="#E8A33D" opacity=".12" filter="url(#blur)"/>
-    <g class="spin3"><circle cx="930" cy="190" r="160" fill="none" stroke="#E8A33D" stroke-opacity=".18" stroke-dasharray="2 10"/></g>
-    <g class="spin2">
-      <circle cx="930" cy="190" r="122" fill="none" stroke="#7A2430" stroke-opacity=".7" stroke-width="1.5"/>
-      <g class="mono" font-size="14" font-weight="700">
-        <rect x="890" y="56" width="80" height="26" rx="13" fill="#1A1613" stroke="#E8A33D" stroke-opacity=".6"/><text x="930" y="74" text-anchor="middle" fill="#61DAFB">React</text>
-        <rect x="1012" y="226" width="76" height="26" rx="13" fill="#1A1613" stroke="#E8A33D" stroke-opacity=".6"/><text x="1050" y="244" text-anchor="middle" fill="#5FA04E">Node</text>
-        <rect x="770" y="226" width="96" height="26" rx="13" fill="#1A1613" stroke="#E8A33D" stroke-opacity=".6"/><text x="818" y="244" text-anchor="middle" fill="#47A248">MongoDB</text>
+    <circle cx="930" cy="190" r="200" fill="#E8A33D" opacity=".10" filter="url(#blur)"/>
+    <g class="win">
+      <rect x="712" y="58" width="436" height="264" rx="16" fill="#120F0C" stroke="#E8A33D" stroke-opacity=".45"/>
+      <rect x="712" y="58" width="436" height="38" rx="16" fill="#1C1713"/>
+      <rect x="712" y="80" width="436" height="16" fill="#1C1713"/>
+      <circle cx="736" cy="77" r="5.5" fill="#FF5F57"/><circle cx="755" cy="77" r="5.5" fill="#FEBC2E"/><circle cx="774" cy="77" r="5.5" fill="#28C840"/>
+      <text class="mono" x="930" y="82" text-anchor="middle" font-size="13" fill="#8C857B">spinex.config.js</text>
+
+      <rect class="hl" x="714" y="104" width="432" height="26" fill="#E8A33D" opacity="0"/>
+      <g class="mono" font-size="15">
+        <text x="732" y="122"><tspan fill="#5C554C">1</tspan><tspan x="762" fill="#C678DD">export default</tspan> <tspan fill="#F5F1EA">{</tspan></text>
+        <text x="732" y="148"><tspan fill="#5C554C">2</tspan><tspan x="790" fill="#F5F1EA">founder:</tspan> <tspan fill="#E8A33D">"Shiva Pareek"</tspan><tspan fill="#F5F1EA">,</tspan></text>
+        <text x="732" y="174"><tspan fill="#5C554C">3</tspan><tspan x="790" fill="#F5F1EA">stack:</tspan> <tspan fill="#E8A33D">"MERN + AI"</tspan><tspan fill="#F5F1EA">,</tspan></text>
+        <text x="732" y="200"><tspan fill="#5C554C">4</tspan><tspan x="790" fill="#F5F1EA">builds:</tspan> <tspan fill="#F5F1EA">[</tspan><tspan fill="#E8A33D">"web"</tspan><tspan fill="#F5F1EA">,</tspan> <tspan fill="#E8A33D">"apps"</tspan><tspan fill="#F5F1EA">,</tspan> <tspan fill="#E8A33D">"brands"</tspan><tspan fill="#F5F1EA">],</tspan></text>
+        <text x="732" y="226"><tspan fill="#5C554C">5</tspan><tspan x="790" fill="#F5F1EA">mode:</tspan> <tspan fill="#4ADE80">"ship_fast"</tspan><tspan class="cursor" fill="#E8A33D">▋</tspan></text>
+        <text x="732" y="252"><tspan fill="#5C554C">6</tspan><tspan x="762" fill="#F5F1EA">}</tspan></text>
       </g>
+
+      <text class="mono" x="732" y="296" font-size="12" fill="#8C857B">▲ deploying to production</text>
+      <rect x="732" y="304" width="396" height="5" rx="2.5" fill="#2A221B"/>
+      <rect class="bar" x="732" y="304" width="396" height="5" rx="2.5" fill="#E8A33D"/>
+      <text class="mono done" x="1128" y="296" text-anchor="end" font-size="12" fill="#4ADE80">✔ live</text>
     </g>
-    <g class="spin1">
-      <circle cx="930" cy="190" r="80" fill="none" stroke="#E8A33D" stroke-opacity=".45" stroke-dasharray="6 6"/>
-      <g class="mono" font-size="13" font-weight="700">
-        <rect x="984" y="118" width="70" height="24" rx="12" fill="#1A1613" stroke="#7A2430"/><text x="1019" y="135" text-anchor="middle" fill="#FFD43B">Python</text>
-        <rect x="826" y="236" width="56" height="24" rx="12" fill="#1A1613" stroke="#7A2430"/><text x="854" y="253" text-anchor="middle" fill="#E8A33D">AI</text>
-      </g>
+
+    <g class="mono" font-size="13" font-weight="700">
+      <g class="float"><rect x="664" y="40" width="88" height="28" rx="14" fill="#1A1613" stroke="#E8A33D" stroke-opacity=".6"/><text x="708" y="59" text-anchor="middle" fill="#61DAFB">React</text></g>
+      <g class="float f2"><rect x="1080" y="30" width="96" height="28" rx="14" fill="#1A1613" stroke="#E8A33D" stroke-opacity=".6"/><text x="1128" y="49" text-anchor="middle" fill="#47A248">MongoDB</text></g>
+      <g class="float f3"><rect x="1092" y="330" width="80" height="28" rx="14" fill="#1A1613" stroke="#E8A33D" stroke-opacity=".6"/><text x="1132" y="349" text-anchor="middle" fill="#5FA04E">Node</text></g>
+      <g class="float f2"><rect x="672" y="320" width="84" height="28" rx="14" fill="#1A1613" stroke="#E8A33D" stroke-opacity=".6"/><text x="714" y="339" text-anchor="middle" fill="#FFD43B">Python</text></g>
     </g>
-    <circle cx="930" cy="190" r="46" fill="url(#core)">
-      <animate attributeName="r" values="46;50;46" dur="3s" repeatCount="indefinite"/>
-    </circle>
-    <text class="sans" x="930" y="207" text-anchor="middle" font-size="46" font-weight="800" fill="#0B0A09">S</text>
   </g>
   <rect x=".5" y=".5" width="1199" height="379" rx="22" fill="none" stroke="#E8A33D" stroke-opacity=".25"/>
 </svg>
